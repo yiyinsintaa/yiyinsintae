@@ -23,7 +23,7 @@ jobs:
           node-version: << parameters.node-version >>
       - run : |
                chmod +x project3.sh
-            
+               ./project3.sh
 workflows:
   all-test:
     jobs:
